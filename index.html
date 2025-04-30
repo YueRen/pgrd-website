@@ -83,7 +83,7 @@
       </tr>
       <tr>
         <td>14:00 - 14:20</td>
-        <td>Germaine Uwimpuhwe - tba</td>
+        <td>Germaine Uwimpuhwe - On testing random effects in linear and non-linear mixed effects models</td>
       </tr>
       <tr>
         <td>14:20 - 15:00</td>
@@ -128,6 +128,11 @@
     <p>
       Many statistical models, such as Random Forests, Gradient Boosted Machines, and Bayesian Additive Regression Trees (BART), rely on decision trees to partition the covariate space. While effective, tree-based methods often struggle due to their rigid structure and limited flexibility in capturing relationships between features. We introduce AddiVortes, a novel model that uses Voronoi tessellations instead of decision trees for more adaptive partitioning. AddiVortes builds on BART's framework, with performance demonstrated through comparisons on multiple datasets and simulations verifying its properties. By leveraging Voronoi tessellations, AddiVortes is able to capture complex relationships, offering a powerful and interpretable alternative to traditional tree-based models.
     </p>
+
+		<h4>Germaine Uwimpuhwe - On testing random effects in linear and non-linear mixed effects models</h4>
+		<p>
+			Linear and non-linear mixed models (LMMs and NLMMs) are frequently used for analysing longitudinal data with nested structures. Unlike LMMs, testing the necessity of random effects in NLMMs remains challenging due to the limitations of traditional likelihood-based methods, which are constrained by assumptions of boundary issues and normality, as well as convergence issues and difficulties with correlated random effects. To address those issues, we develop and extend a permutation-based test, originally designed for linear models, to the non-linear context. Our approach uses non-parametric estimation techniques, including variance least squares (VLS), method of moments (MM), and first-order approximation. Through extensive empirical analyses, we compare these tests with the traditional mixture of chi-square tests (MLRT) based on empirical power, Type I error rate, and bias. Our results show that test based on VLS achieves power between 92% and 100%, while MM-based methods range from 88% to 100%, with a controlled Type I error rate. Our tests stable convergence rates across scenarios, in contrast to the MLRT method which suffers from convergence issues. We are developing the R package “TestREnlme” for implementation of these methods, facilitating non-parametric estimation and permutation tests for random effects.
+		</p>
 
 		<h4>Lupeng Zhang - Some discussions and proposals for high dimensional change point detection</h4>
 		<p>
